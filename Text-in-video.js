@@ -103,7 +103,7 @@ app.get('/', (req, res) => {
     </script>
 </head>
 <body>
-    <h1> Script-in-video </h1>
+    <h1> Text-in-video </h1>
     <input type="text" id="prompt" placeholder="Enter prompt...">
     <button onclick="generateVideo()">Generate</button>
     <p id="loading" class="loading">Generating video... Please wait.</p>
